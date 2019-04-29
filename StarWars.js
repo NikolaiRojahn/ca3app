@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Text, View, FlatList, StyleSheet, ScrollView, } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
-let url = "https://www.joergoertel.com/Week-13-CA3/api/info/starwars-characters";
+let url = "https://techjahn.dk/ca3backend/api/info/starwars-characters";
 
 export default class starwars extends Component {
     constructor(props) {
